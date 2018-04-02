@@ -1,0 +1,26 @@
+#selectBtn {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	width: 100%
+}
+
+#buttonWrapper{
+	display: none;
+}
+
+#logoWrapper {
+	text-align: center;
+}
+
+#logo {
+	margin: 150px;
+}
+
+.btn {
+	display: inline-block;
+	width: 500px;
+	height: 400px;
+	text-align: center;
+	margin: 50px 100px;
+}

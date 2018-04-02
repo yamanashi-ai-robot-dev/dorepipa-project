@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="initial-scale = 1, minimum-scale = 1, maximum-scale = 1"/>
+    <title>画面</title>
+	<link rel="styleSheet" type="text/css" href="css/common.css"/>
+    <script src="js/libs/qimessaging.js"></script>
+    <script src="js/libs/jquery-1.11.0.min.js"></script>
+    <script src="js/libs/adjust23.js"></script>
+    <script src="js/common.js"></script>
+  </head>
+	<body>
+		<div id="wrapper">
+			<div id="loading" class="scenes">
+				<p id="font_loader">フォントロード用テキスト</p>
+			</div>
+			<div id="menu" class="scenes" data-scene="0">
+				<div id="menuWrapper">
+					<div id="menuBtn">
+						<img id="group" class="menuBtn btn group off" src="images/group_button.png">
+						<img id="solo" class="menuBtn btn solo off" src="images/solo_button.png">
+					</div>
+				</div>
+			</div>
+			<div id="detect" class="scenes" data-scene="1">
+				<div id="d_buttonWrapper">
+					<div id="calling">
+						<img id="skip" class="skip  select btn" data="skip" src="images/skip_button.png">
+						<img id="end" class="end  btn" src="images/end_button.png">
+					</div>
+					<div id="check">
+						<img id="next" class="next select btn" data="next" src="images/next_button.png">
+						<img id="again" class="again select btn" data="again" src="images/again_button.png">
+					</div>
+				</div>
+			</div>
+			<div id="select" class="scenes" data-scene="2">
+				<div id="s_buttonWrapper">
+					<div id="selectBtn">
+						<img id="kaeru" class="songBtn" src="images/kaerunouta.png">
+						<img class="songBtn" src="images/song2.png">
+						<img class="songBtn" src="images/song3.png">
+						<img class="songBtn" src="images/song4.png">
+					</div>
+				</div>
+			</div>
+			<div id="lesson" class="scenes" data-scene="3">
+				<div id="illustWrapper">
+					<img id="illust" src="images/background_3.png">
+				</div>
+				<div id="lessonBtn">
+					<img id="start" class="btn" src="images/start.png">
+					<img id="back" class="btn" src="images/back_btn.png">
+				</div>
+			</div>
+			<div id="feedback" class="scenes" data-scene="4">
+				<div id="f_buttonWrapper">
+					<div id="feedbackBtn">
+						<img id="lesson_again" class="btn" src="images/back.png">
+						<img id="to_menu" class="btn" src="images/to_menu.png">
+					</div>
+				</div>
+			</div>
+			<div id="s_detect" class="scenes" data-scene="5">
+				<div id="s_d_buttonWrapper">
+					<div id="s_check">
+						<img id="s_end" class="end select btn" data="again" src="images/next_button.png">
+						<img id="s_again" class="again select btn" data="next" src="images/again_button.png">
+					</div>
+				</div>
+			</div>
+			<div id="s_feedback" class="scenes" data-scene="6">
+				<div id="s_f_buttonWrapper">
+					<div id="s_feedbackBtn">
+						<img id="listen" class="btn" src="images/listen.png">
+						<img id="no_listen" class="btn" src="images/no_listen.png">
+					</div>
+				</div>
+			</div>
+			<div id="s_score" class="scenes" data-scene="7">
+				<div id="s_scoreWrapper">
+					<span id="score"></span>
+					<span id="score_sub">てん</span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

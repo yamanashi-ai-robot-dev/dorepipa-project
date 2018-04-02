@@ -1,0 +1,51 @@
+#detectWrapper {
+	height : 100vh;
+}
+
+#calling {
+	width: 100%;
+	display: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#check {
+	width: 100%;
+	display: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#noData {
+	width: 100%;
+	display: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#logoView {
+	text-align: center;
+}
+
+.btn {
+	display: inline-block;
+	width: 500px;
+	height: 400px;
+	text-align: center;
+	margin: 300px 100px;
+}
+
+.nameBtn {
+	display: inline-block;
+	width: 500px;
+	height: 400px;
+	text-align: center;
+	margin: 50px 100px;
+}
+
+#logo{
+	margin: 200px;
+}

@@ -1,0 +1,41 @@
+body{
+	background-image: url("../images/background.jpg");
+}
+
+#menuWrapper{
+	margin: 0;
+	padding: 0;
+	background-image: url("../images/background_1.jpg");
+	display: none;
+}
+
+#selectBtn {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 100%
+}
+
+#logoWrapper {
+	text-align: center;
+}
+
+#logo {
+	margin-top: 150px;
+}
+
+.btn {
+	display: inline-block;
+	text-align: center;
+	margin: 300px 100px;
+	z-index: 5;
+}
+
+#group_on {
+	display: none;
+}
+
+#solo_on{
+	display: none;
+}
+

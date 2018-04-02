@@ -1,0 +1,206 @@
+@font-face{
+	font-family: 'チェックアンド横断フォント 標準';
+	src: url("../font/CP and Trans.ttf") format("truetype");
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	height: 1067px;
+	width: 1707px;
+	overflow: hidden;
+	background-image: url("../images/background_4.png");
+}
+
+/* 各画面初期状態 */
+#loading {
+	background-image: url("../images/background.png");
+	width: 100%;
+	height: 1067px;
+}
+
+#menu {
+	display: none;
+	background-image: url("../images/background_1.png");
+	width: 100%;
+	height: 1067px;
+}
+
+#detect {
+	display: none;
+	background-image: url("../images/background_1.png");
+	width: 100%;
+	height: 1067px;
+}
+
+#select {
+	background-image: url("../images/background_1.png");
+	display: none;
+	width: 100%;
+	height: 1067px;
+	font-size: 0;
+}
+
+#lesson {
+	display: none;
+	background-image: url("../images/background_1.png");
+	width: 100%;
+	height: 1067px;
+}
+
+#feedback {
+	display: none;
+	background-image: url("../images/background_1.png");
+	width: 100%;
+	height: 1067px;
+}
+
+#s_detect{
+	display: none;
+	background-image: url("../images/background_1.png");
+	width: 100%;
+	height: 1067px;
+}
+
+#s_feedback{
+	display: none;
+	background-image: url("../images/background_1.png");
+	width: 100%;
+	height: 1067px;
+}
+/* メニュー画面 */
+#menuBtn {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#s_score {
+	display: none;
+	background-image: url("../images/background_1.png");
+	width: 100%;
+	height: 1067px;
+}
+
+/* 奏者判定画面 */
+/*
+#detectWrapper {
+	height : 100vh;
+}*/
+
+#calling {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#check {
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#s_check{
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#lessonBtn {
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+
+#illustWrapper{
+	display: none;
+	width: 100%;
+	height: 1067px;
+}
+
+#s_f_buttonWrapper{
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#f_buttonWrapper{
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* 演奏 */
+
+/* ボタン共通 */
+
+
+.btn {
+	display: inline-block;
+	text-align: center;
+	margin: 240px 50px;
+}
+
+.btn2 {
+	display: inline-block;
+	text-align: center;
+	margin: 300px 20px;
+}
+
+
+/* 画面ごとのボタン */
+.nameBtn {
+	display: inline-block;
+	text-align: center;
+	margin: 50px 100px;
+}
+
+.songBtn {
+	display: inline-block;
+	text-align: center;
+}
+
+
+/*その他*/
+
+#font_loader {
+	font-family: 'チェックアンド横断フォント 標準';
+	position: absolute;
+	margin:  150px 150px;
+	font-size: 1em;
+	color: white;
+}
+
+#s_scoreWrapper {
+	text-align: center;
+	line-height: 1067px;
+}
+
+#score {
+	font-family: 'チェックアンド横断フォント 標準';
+	font-size: 30em;
+	color: #fa3a7b
+}
+
+#score_sub {
+	diplay: block;
+	height: 100px;
+	position: absolute;
+	top: 300px;
+	right: 150px;
+	font-family: 'チェックアンド横断フォント 標準';
+	font-size: 10em;
+	color: #fa3a7b
+}
+
+

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="dorepipa-project-2addff" version="0.0.0">
+ <names>
+  <name lang="en_US">Untitled</name>
+ </names>
+ <supportedLanguages>
+  <language>ja_JP</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>ja_JP</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

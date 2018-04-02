@@ -1,0 +1,3 @@
+#どれピパ
+
+Pepper側Choregrapheプロジェクトファイルです

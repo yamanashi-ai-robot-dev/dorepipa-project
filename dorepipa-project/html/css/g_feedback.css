@@ -1,0 +1,22 @@
+#selectBtn {
+	text-align: center;
+}
+
+#buttonWrapper{
+	display: none;
+}
+
+#logoWrapper{
+   		text-align: center;
+}
+#logo {
+   		margin-top:150px;
+}
+
+.btn {
+	display: inline-block;
+	width: 500px;
+	height: 400px;
+	text-align: center;
+	margin: 300px 50px;
+}
